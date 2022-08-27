@@ -5,9 +5,7 @@ int main(void)
 	int integer1;
 	int integer2;
 	int sum;
-	
-	
-	printf("hello");
+
 	printf("X\n");
 	scanf("%d", &integer1);
 	

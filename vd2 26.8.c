@@ -10,6 +10,8 @@ int main() {
 	printf("\n Enter any three numbers: ");
 	scanf("%d %d %d", &a, &b, &c);
 	
+	printf("hello world");
+	
 	sum = a + b + c;
 	
 	printf("\n Sum = %d", sum);

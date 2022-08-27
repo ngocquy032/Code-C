@@ -1,0 +1,14 @@
+Các lệnh git cơ bản:
+
+- git clone: lệnh này để lấy source code về
+- git init: khởi tạo 1 project git
+- git status: khi chạy lệnh này sẽ nhìn thấy những file thay đổi
+- git add + file thay đổi: đẩy file lên để commit 
+- git add . : để add tất cả các file thay đổi
+- git commit -m "thông báo thay đổi"
+- git push origin <Tên nhánh>: Branch là nhánh code hiện tại
+Ví dụ: đang ở branch: main. Thì câu lệnh sẽ như sau:
+ "git push origin master"
+ 
+- git pull origin <Tên nhánh>: lấy source mới nhất trên server
+- git checkout <Tên nhánh>: lệnh này dùng để chuyển branch

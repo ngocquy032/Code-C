@@ -11,5 +11,7 @@ int main(int argc, char *argv[]) {
 	r = 10.5;
 	printf("\n Amount is : %f", p*n*r/100);
 	
+	printf(" 032");
+	
 	return 0;
 }
