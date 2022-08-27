@@ -9,6 +9,8 @@ int main(int argc, char *argv[]) {
 	float rate, si;
 	principal = 1000;
 	
+	printf(" quy");
+	
 	period = 3;
 	rate = 8.5;
 	si = principal * period * rate / 100;
