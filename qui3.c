@@ -6,7 +6,7 @@ int main(void)
 	int integer2;
 	int sum;
 	
-	
+	printf("Hello");
 	printf("hello");
 	printf("X\n");
 	scanf("%d", &integer1);
