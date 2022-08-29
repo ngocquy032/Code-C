@@ -1,24 +1,53 @@
-#include <stdio.h>
+# include <stdio.h>
 
-int main(void)
-{
-	int integer1;
-	int integer2;
-	int sum;
+int main(int argc, char *argv[]) {
+	
+	int i,a,b,c,d;
+	int r1,r2,r3;
+	
+	printf("Test r1 = ++i %% 7\n");
+	printf("i = ");
+	scanf("%d", &i);
+	
 
-	printf("X\n");
-	scanf("%d", &integer1);
+	r1 = ++i % 7;
+	printf("r1 = ++i %%7 = %d\n", r1);
+	
+	printf("Test r2 = 5 * (c - 3 + d)\n");
+	printf("c = ");
+	scanf("%d", &c);
+	
+	printf("d = ");
+	scanf("%d", &d);
+	
+	r2 = 5 * (c - 3 + d);
+	printf("Result r2 =  5 * (c - 3 + d) = %d\n", r2);
+	
+	printf("Test r3 = a * (b + c/d) - 22\n");
+	printf("a = ");
+	scanf("%d", &a);
+	
+	printf("b = ");
+	scanf("%d", &b);
+	
+	printf("c = ");
+	scanf("%d", &c);
+	
+	printf("d = ");
+	scanf("%d", &d);
+	
+	r3 = a * (b + c/d) - 22;
+	printf("Result r3 = a * (b + c/d) - 22 = %d\n",r3);
 	
 	
-	printf("Y\n");
-	scanf("%d", &integer2);
 	
-	sum = integer1 + integer2;
 	
-	 printf("tong gia tri yza: %d\n", sum);
-	 
-	 return 0;
-	 
-	 
+	
+	
+	return 0;
+
+	
+	
+	
 }
 
